@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent Register = new Intent(MainActivity.this, Register.class);
-                startActivity(Register);
+                Intent login = new Intent(MainActivity.this, login.class);
+                startActivity(login);
                 finish();
             }
         },waktu_loading);
